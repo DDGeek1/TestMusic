@@ -19,7 +19,7 @@ if mon then
   w, h = mon.getSize()
 end
 
-local url = "https://raw.githubusercontent.com/DDGeek1/TestMusic/main/The%20Offspring%20-%20The%20Kids%20Arent%20Alright%20(%20OFFICIAL%20MUSIC%20VIDEO%20HD%20).dfpwm"
+local url = "https://raw.githubusercontent.com/DDGeek1/TestMusic/main/kids.dfpwm"
 print("Connecting to GitHub...")
 local handle = assert(http.get(url, nil, true), "Failed to download song")
 local decoder = dfpwm.make_decoder()
